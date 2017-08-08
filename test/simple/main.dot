@@ -1,0 +1,15 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x2ba3e90 [shape=record,label="{entry:\l  tail call void @seahorn.fn.enter() #3\l  %0 = tail call i32 bitcast (i32 (...)* @unknown1 to i32 ()*)() #3\l  %1 = icmp eq i32 %0, 0\l  br i1 %1, label %verifier.error, label %.lr.ph.preheader\l|{<s0>T|<s1>F}}"];
+	Node0x2ba3e90:s0 -> Node0x2ba0760;
+	Node0x2ba3e90:s1 -> Node0x2ba0640;
+	Node0x2ba0640 [shape=record,label="{.lr.ph.preheader:                                 \l  br label %.lr.ph\l}"];
+	Node0x2ba0640 -> Node0x2ba06a0;
+	Node0x2ba06a0 [shape=record,color=blue,label="{.lr.ph:                                           \l  %x.0.i1 = phi i32 [ %factor, %.lr.ph ], [ 1, %.lr.ph.preheader ]\l  %factor = mul i32 %x.0.i1, 2\l  %2 = tail call i32 bitcast (i32 (...)* @unknown1 to i32 ()*)() #3\l  %3 = icmp eq i32 %2, 0\l  br i1 %3, label %.verifier.error_crit_edge, label %.lr.ph\l|{<s0>T|<s1>F}}"];
+	Node0x2ba06a0:s0 -> Node0x2ba0700;
+	Node0x2ba06a0:s1 -> Node0x2ba06a0;
+	Node0x2ba0700 [shape=record,label="{.verifier.error_crit_edge:                        \l  %factor.lcssa = phi i32 [ %factor, %.lr.ph ]\l  %phitmp = icmp slt i32 %factor.lcssa, 1\l  br label %verifier.error\l}"];
+	Node0x2ba0700 -> Node0x2ba0760;
+	Node0x2ba0760 [shape=record,label="{verifier.error:                                   \l  %x.0.i.lcssa = phi i1 [ %phitmp, %.verifier.error_crit_edge ], [ false,\l... %entry ]\l  tail call void @verifier.assume.not(i1 %x.0.i.lcssa) #3\l  %4 = xor i1 %x.0.i.lcssa, true\l  tail call void @llvm.assume(i1 %4), !seahorn !1\l  tail call void @seahorn.fail() #3\l  ret i32 42\l}"];
+}

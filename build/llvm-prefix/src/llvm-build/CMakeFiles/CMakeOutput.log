@@ -1,0 +1,2662 @@
+The system is: Linux - 4.4.0-31-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3154805482/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3154805482.dir/build.make CMakeFiles/cmTryCompileExec3154805482.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3154805482.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3154805482.dir/testCCompiler.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3154805482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3154805482.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3154805482.dir/testCCompiler.c.o  -o cmTryCompileExec3154805482 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4118280951/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4118280951.dir/build.make CMakeFiles/cmTryCompileExec4118280951.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4118280951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4118280951.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4118280951 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4118280951' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4118280951 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4118280951/fast"]
+  ignore line: [make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4118280951.dir/build.make CMakeFiles/cmTryCompileExec4118280951.dir/build]
+  ignore line: [make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4118280951]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4118280951.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4118280951 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4118280951' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4118280951 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4118280951] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec4118280951.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1850926108/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1850926108.dir/build.make CMakeFiles/cmTryCompileExec1850926108.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1850926108.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1850926108.dir/testCXXCompiler.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1850926108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1850926108.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1850926108.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1850926108 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2103713461/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2103713461.dir/build.make CMakeFiles/cmTryCompileExec2103713461.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2103713461
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2103713461.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2103713461 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2103713461' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2103713461 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2103713461/fast"]
+  ignore line: [make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2103713461.dir/build.make CMakeFiles/cmTryCompileExec2103713461.dir/build]
+  ignore line: [make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2103713461]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2103713461.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2103713461 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2103713461' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2103713461 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2103713461] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2103713461.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3715874517/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3715874517.dir/build.make CMakeFiles/cmTryCompileExec3715874517.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3715874517.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3715874517.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3715874517
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3715874517.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3715874517.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3715874517 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1910316183/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1910316183.dir/build.make CMakeFiles/cmTryCompileExec1910316183.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1910316183.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1910316183.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1910316183
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1910316183.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1910316183.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1910316183 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4083351951/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4083351951.dir/build.make CMakeFiles/cmTryCompileExec4083351951.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4083351951.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4083351951.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4083351951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4083351951.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4083351951.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4083351951 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec768250287/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec768250287.dir/build.make CMakeFiles/cmTryCompileExec768250287.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec768250287.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec768250287.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec768250287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec768250287.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec768250287.dir/CheckIncludeFile.c.o  -o cmTryCompileExec768250287 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec548491628/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec548491628.dir/build.make CMakeFiles/cmTryCompileExec548491628.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec548491628.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec548491628.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec548491628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec548491628.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec548491628.dir/CheckIncludeFile.c.o  -o cmTryCompileExec548491628 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3322668600/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3322668600.dir/build.make CMakeFiles/cmTryCompileExec3322668600.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3322668600.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3322668600.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3322668600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3322668600.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3322668600.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3322668600 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec261557852/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec261557852.dir/build.make CMakeFiles/cmTryCompileExec261557852.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec261557852.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec261557852.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec261557852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec261557852.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec261557852.dir/CheckIncludeFile.c.o  -o cmTryCompileExec261557852 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3542402359/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3542402359.dir/build.make CMakeFiles/cmTryCompileExec3542402359.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3542402359.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3542402359.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3542402359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3542402359.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3542402359.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3542402359 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec594405761/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec594405761.dir/build.make CMakeFiles/cmTryCompileExec594405761.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec594405761.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec594405761.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec594405761
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec594405761.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec594405761.dir/CheckIncludeFile.c.o  -o cmTryCompileExec594405761 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1976238517/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1976238517.dir/build.make CMakeFiles/cmTryCompileExec1976238517.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1976238517.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1976238517.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1976238517
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1976238517.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1976238517.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1976238517 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4009226124/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4009226124.dir/build.make CMakeFiles/cmTryCompileExec4009226124.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4009226124.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4009226124.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4009226124
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4009226124.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4009226124.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4009226124 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2093803137/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2093803137.dir/build.make CMakeFiles/cmTryCompileExec2093803137.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2093803137.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2093803137.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2093803137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2093803137.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2093803137.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2093803137 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1148316047/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1148316047.dir/build.make CMakeFiles/cmTryCompileExec1148316047.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1148316047.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1148316047.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1148316047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1148316047.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1148316047.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1148316047 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3412850753/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3412850753.dir/build.make CMakeFiles/cmTryCompileExec3412850753.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3412850753.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3412850753.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3412850753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3412850753.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3412850753.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3412850753 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2808121804/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2808121804.dir/build.make CMakeFiles/cmTryCompileExec2808121804.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2808121804.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2808121804.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2808121804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2808121804.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2808121804.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2808121804 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2480497040/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2480497040.dir/build.make CMakeFiles/cmTryCompileExec2480497040.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2480497040.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2480497040.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2480497040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2480497040.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2480497040.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2480497040 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1754237313/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1754237313.dir/build.make CMakeFiles/cmTryCompileExec1754237313.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1754237313.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1754237313.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1754237313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1754237313.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1754237313.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1754237313 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2689763669/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2689763669.dir/build.make CMakeFiles/cmTryCompileExec2689763669.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2689763669.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2689763669.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2689763669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2689763669.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2689763669.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2689763669 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec533123526/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec533123526.dir/build.make CMakeFiles/cmTryCompileExec533123526.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec533123526.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec533123526.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec533123526
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec533123526.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec533123526.dir/CheckIncludeFile.c.o  -o cmTryCompileExec533123526 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec160734380/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec160734380.dir/build.make CMakeFiles/cmTryCompileExec160734380.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec160734380.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec160734380.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec160734380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec160734380.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec160734380.dir/CheckIncludeFile.c.o  -o cmTryCompileExec160734380 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec367524243/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec367524243.dir/build.make CMakeFiles/cmTryCompileExec367524243.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec367524243.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec367524243.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec367524243
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec367524243.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec367524243.dir/CheckIncludeFile.c.o  -o cmTryCompileExec367524243 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1374743595/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1374743595.dir/build.make CMakeFiles/cmTryCompileExec1374743595.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1374743595.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1374743595.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1374743595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1374743595.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1374743595.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1374743595 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3623725249/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3623725249.dir/build.make CMakeFiles/cmTryCompileExec3623725249.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3623725249.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3623725249.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3623725249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3623725249.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3623725249.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3623725249 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1052389980/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1052389980.dir/build.make CMakeFiles/cmTryCompileExec1052389980.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1052389980.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1052389980.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1052389980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1052389980.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1052389980.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1052389980 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2866924899/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2866924899.dir/build.make CMakeFiles/cmTryCompileExec2866924899.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2866924899.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2866924899.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2866924899
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2866924899.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2866924899.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2866924899 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3936288104/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3936288104.dir/build.make CMakeFiles/cmTryCompileExec3936288104.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3936288104.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3936288104.dir/CheckIncludeFile.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3936288104
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3936288104.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3936288104.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3936288104 -rdynamic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3237723073/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3237723073.dir/build.make CMakeFiles/cmTryCompileExec3237723073.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3237723073.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3237723073.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3237723073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3237723073.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3237723073.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3237723073 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2366641185/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2366641185.dir/build.make CMakeFiles/cmTryCompileExec2366641185.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2366641185.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2366641185.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2366641185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2366641185.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2366641185.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2366641185 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXXABI_H succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec229097632/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec229097632.dir/build.make CMakeFiles/cmTryCompileExec229097632.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec229097632.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXXABI_H   -o CMakeFiles/cmTryCompileExec229097632.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec229097632
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec229097632.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_CXXABI_H    CMakeFiles/cmTryCompileExec229097632.dir/src.cxx.o  -o cmTryCompileExec229097632 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stddef.h>
+#include <cxxabi.h>
+int main() { return 0; }
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1184952894/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1184952894.dir/build.make CMakeFiles/cmTryCompileExec1184952894.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1184952894.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1184952894.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1184952894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1184952894.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1184952894.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1184952894 -rdynamic -lpthread -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec423366064/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec423366064.dir/build.make CMakeFiles/cmTryCompileExec423366064.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec423366064.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTryCompileExec423366064.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec423366064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec423366064.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTryCompileExec423366064.dir/CheckFunctionExists.c.o  -o cmTryCompileExec423366064 -rdynamic -lpthread -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4086121649/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4086121649.dir/build.make CMakeFiles/cmTryCompileExec4086121649.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4086121649.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTryCompileExec4086121649.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4086121649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4086121649.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    CMakeFiles/cmTryCompileExec4086121649.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4086121649 -rdynamic -lpthread -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1353025909/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1353025909.dir/build.make CMakeFiles/cmTryCompileExec1353025909.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1353025909.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTryCompileExec1353025909.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1353025909
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1353025909.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock    CMakeFiles/cmTryCompileExec1353025909.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1353025909 -rdynamic -lpthread -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec519643193/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec519643193.dir/build.make CMakeFiles/cmTryCompileExec519643193.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec519643193.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec519643193.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec519643193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec519643193.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec519643193.dir/CheckFunctionExists.c.o  -o cmTryCompileExec519643193 -rdynamic -ldl -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3426147835/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3426147835.dir/build.make CMakeFiles/cmTryCompileExec3426147835.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3426147835.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec3426147835.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3426147835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3426147835.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3426147835.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3426147835 -rdynamic -lrt -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3503091171/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3503091171.dir/build.make CMakeFiles/cmTryCompileExec3503091171.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3503091171.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTryCompileExec3503091171.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3503091171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3503091171.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTryCompileExec3503091171.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3503091171 -rdynamic -lz -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec325324756/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec325324756.dir/build.make CMakeFiles/cmTryCompileExec325324756.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec325324756.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTryCompileExec325324756.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec325324756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec325324756.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTryCompileExec325324756.dir/CheckFunctionExists.c.o  -o cmTryCompileExec325324756 -rdynamic -ltinfo -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3119830284/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3119830284.dir/build.make CMakeFiles/cmTryCompileExec3119830284.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3119830284.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3119830284.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3119830284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3119830284.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3119830284.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3119830284 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1530530406/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1530530406.dir/build.make CMakeFiles/cmTryCompileExec1530530406.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1530530406.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1530530406.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1530530406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1530530406.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1530530406.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1530530406 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2607564299/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2607564299.dir/build.make CMakeFiles/cmTryCompileExec2607564299.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2607564299.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2607564299.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2607564299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2607564299.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2607564299.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2607564299 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec231697756/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec231697756.dir/build.make CMakeFiles/cmTryCompileExec231697756.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec231697756.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec231697756.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec231697756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec231697756.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec231697756.dir/CheckSymbolExists.c.o  -o cmTryCompileExec231697756 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2484538812/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2484538812.dir/build.make CMakeFiles/cmTryCompileExec2484538812.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2484538812.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2484538812.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2484538812
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2484538812.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2484538812.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2484538812 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2689967453/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2689967453.dir/build.make CMakeFiles/cmTryCompileExec2689967453.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2689967453.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2689967453.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2689967453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2689967453.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2689967453.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2689967453 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec344874141/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec344874141.dir/build.make CMakeFiles/cmTryCompileExec344874141.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec344874141.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec344874141.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec344874141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec344874141.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec344874141.dir/CheckSymbolExists.c.o  -o cmTryCompileExec344874141 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceilf exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2166604554/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166604554.dir/build.make CMakeFiles/cmTryCompileExec2166604554.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2166604554.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2166604554.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2166604554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166604554.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2166604554.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2166604554 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floorf exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec839273818/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec839273818.dir/build.make CMakeFiles/cmTryCompileExec839273818.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec839273818.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec839273818.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec839273818
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec839273818.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec839273818.dir/CheckSymbolExists.c.o  -o cmTryCompileExec839273818 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmodf exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2797864773/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2797864773.dir/build.make CMakeFiles/cmTryCompileExec2797864773.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2797864773.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2797864773.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2797864773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2797864773.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2797864773.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2797864773 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1634160043/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1634160043.dir/build.make CMakeFiles/cmTryCompileExec1634160043.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1634160043.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1634160043.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1634160043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1634160043.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1634160043.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1634160043 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log2 exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec552949573/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec552949573.dir/build.make CMakeFiles/cmTryCompileExec552949573.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec552949573.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec552949573.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec552949573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec552949573.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec552949573.dir/CheckSymbolExists.c.o  -o cmTryCompileExec552949573 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log2
+  return ((int*)(&log2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log10 exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec320519112/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec320519112.dir/build.make CMakeFiles/cmTryCompileExec320519112.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec320519112.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec320519112.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec320519112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec320519112.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec320519112.dir/CheckSymbolExists.c.o  -o cmTryCompileExec320519112 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3261184852/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3261184852.dir/build.make CMakeFiles/cmTryCompileExec3261184852.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3261184852.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3261184852.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3261184852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3261184852.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3261184852.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3261184852 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp2 exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec364396212/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec364396212.dir/build.make CMakeFiles/cmTryCompileExec364396212.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec364396212.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec364396212.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec364396212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec364396212.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec364396212.dir/CheckSymbolExists.c.o  -o cmTryCompileExec364396212 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp2
+  return ((int*)(&exp2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3164029340/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3164029340.dir/build.make CMakeFiles/cmTryCompileExec3164029340.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3164029340.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3164029340.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3164029340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3164029340.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3164029340.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3164029340 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3986442252/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3986442252.dir/build.make CMakeFiles/cmTryCompileExec3986442252.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3986442252.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3986442252.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3986442252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3986442252.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3986442252.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3986442252 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3137382421/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3137382421.dir/build.make CMakeFiles/cmTryCompileExec3137382421.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3137382421.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3137382421.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3137382421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3137382421.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3137382421.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3137382421 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nearbyintf exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3748866006/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3748866006.dir/build.make CMakeFiles/cmTryCompileExec3748866006.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3748866006.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3748866006.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3748866006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3748866006.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3748866006.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3748866006 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nearbyintf
+  return ((int*)(&nearbyintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec65269571/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec65269571.dir/build.make CMakeFiles/cmTryCompileExec65269571.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec65269571.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec65269571.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec65269571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec65269571.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec65269571.dir/CheckSymbolExists.c.o  -o cmTryCompileExec65269571 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3140371911/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3140371911.dir/build.make CMakeFiles/cmTryCompileExec3140371911.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3140371911.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3140371911.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3140371911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3140371911.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3140371911.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3140371911 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2316369278/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2316369278.dir/build.make CMakeFiles/cmTryCompileExec2316369278.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2316369278.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2316369278.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2316369278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2316369278.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2316369278.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2316369278 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4164483730/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4164483730.dir/build.make CMakeFiles/cmTryCompileExec4164483730.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4164483730.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4164483730.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4164483730
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4164483730.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4164483730.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4164483730 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec4164483730.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closedir exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec861705685/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec861705685.dir/build.make CMakeFiles/cmTryCompileExec861705685.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec861705685.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec861705685.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec861705685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec861705685.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec861705685.dir/CheckSymbolExists.c.o  -o cmTryCompileExec861705685 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the opendir exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec101229782/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec101229782.dir/build.make CMakeFiles/cmTryCompileExec101229782.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec101229782.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec101229782.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec101229782
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec101229782.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec101229782.dir/CheckSymbolExists.c.o  -o cmTryCompileExec101229782 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the readdir exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3259139132/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3259139132.dir/build.make CMakeFiles/cmTryCompileExec3259139132.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3259139132.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3259139132.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3259139132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3259139132.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3259139132.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3259139132 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3908129753/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3908129753.dir/build.make CMakeFiles/cmTryCompileExec3908129753.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3908129753.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3908129753.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3908129753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3908129753.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3908129753.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3908129753 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2768396331/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2768396331.dir/build.make CMakeFiles/cmTryCompileExec2768396331.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2768396331.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2768396331.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2768396331
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2768396331.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2768396331.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2768396331 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec514112737/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec514112737.dir/build.make CMakeFiles/cmTryCompileExec514112737.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec514112737.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec514112737.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec514112737
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec514112737.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec514112737.dir/CheckSymbolExists.c.o  -o cmTryCompileExec514112737 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec203055091/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec203055091.dir/build.make CMakeFiles/cmTryCompileExec203055091.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec203055091.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec203055091.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec203055091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec203055091.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec203055091.dir/CheckSymbolExists.c.o  -o cmTryCompileExec203055091 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1288405207/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1288405207.dir/build.make CMakeFiles/cmTryCompileExec1288405207.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1288405207.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1288405207.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1288405207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1288405207.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1288405207.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1288405207 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realpath exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec307885163/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec307885163.dir/build.make CMakeFiles/cmTryCompileExec307885163.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec307885163.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec307885163.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec307885163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec307885163.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec307885163.dir/CheckSymbolExists.c.o  -o cmTryCompileExec307885163 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec775936928/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec775936928.dir/build.make CMakeFiles/cmTryCompileExec775936928.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec775936928.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec775936928.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec775936928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec775936928.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec775936928.dir/CheckSymbolExists.c.o  -o cmTryCompileExec775936928 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec711174411/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec711174411.dir/build.make CMakeFiles/cmTryCompileExec711174411.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec711174411.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec711174411.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec711174411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec711174411.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec711174411.dir/CheckSymbolExists.c.o  -o cmTryCompileExec711174411 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3755131629/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3755131629.dir/build.make CMakeFiles/cmTryCompileExec3755131629.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3755131629.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3755131629.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3755131629
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3755131629.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3755131629.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3755131629 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the drand48 exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec750284628/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec750284628.dir/build.make CMakeFiles/cmTryCompileExec750284628.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec750284628.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec750284628.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec750284628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec750284628.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec750284628.dir/CheckSymbolExists.c.o  -o cmTryCompileExec750284628 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec827880774/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec827880774.dir/build.make CMakeFiles/cmTryCompileExec827880774.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec827880774.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec827880774.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec827880774
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec827880774.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec827880774.dir/CheckSymbolExists.c.o  -o cmTryCompileExec827880774 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoq exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1213347896/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1213347896.dir/build.make CMakeFiles/cmTryCompileExec1213347896.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1213347896.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1213347896.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1213347896
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1213347896.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1213347896.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1213347896 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2622306533/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2622306533.dir/build.make CMakeFiles/cmTryCompileExec2622306533.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2622306533.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2622306533.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2622306533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2622306533.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2622306533.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2622306533 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2940573533/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2940573533.dir/build.make CMakeFiles/cmTryCompileExec2940573533.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2940573533.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2940573533.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2940573533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2940573533.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2940573533.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2940573533 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4027067138/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4027067138.dir/build.make CMakeFiles/cmTryCompileExec4027067138.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4027067138.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4027067138.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4027067138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4027067138.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4027067138.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4027067138 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlerror exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec614099049/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec614099049.dir/build.make CMakeFiles/cmTryCompileExec614099049.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec614099049.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec614099049.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec614099049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec614099049.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec614099049.dir/CheckSymbolExists.c.o  -o cmTryCompileExec614099049 -rdynamic -lm -ldl 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlerror
+  return ((int*)(&dlerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec103672947/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec103672947.dir/build.make CMakeFiles/cmTryCompileExec103672947.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec103672947.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec103672947.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec103672947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec103672947.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec103672947.dir/CheckSymbolExists.c.o  -o cmTryCompileExec103672947 -rdynamic -lm -ldl 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3385917735/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3385917735.dir/build.make CMakeFiles/cmTryCompileExec3385917735.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3385917735.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3385917735.dir/CheckSymbolExists.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3385917735
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3385917735.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3385917735.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3385917735 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+File /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec126460121/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec126460121.dir/build.make CMakeFiles/cmTryCompileExec126460121.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec126460121.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_INT64_T   -o CMakeFiles/cmTryCompileExec126460121.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec126460121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec126460121.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_INT64_T    CMakeFiles/cmTryCompileExec126460121.dir/src.cxx.o  -o cmTryCompileExec126460121 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4032848535/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4032848535.dir/build.make CMakeFiles/cmTryCompileExec4032848535.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4032848535.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UINT64_T   -o CMakeFiles/cmTryCompileExec4032848535.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4032848535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4032848535.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_UINT64_T    CMakeFiles/cmTryCompileExec4032848535.dir/src.cxx.o  -o cmTryCompileExec4032848535 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4243275116/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4243275116.dir/build.make CMakeFiles/cmTryCompileExec4243275116.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4243275116.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_U_INT64_T   -o CMakeFiles/cmTryCompileExec4243275116.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4243275116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4243275116.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_U_INT64_T    CMakeFiles/cmTryCompileExec4243275116.dir/src.cxx.o  -o cmTryCompileExec4243275116 -rdynamic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Determining if the function __atomic_fetch_add_4 exists in the atomic passed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1356947676/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1356947676.dir/build.make CMakeFiles/cmTryCompileExec1356947676.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1356947676.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_4   -o CMakeFiles/cmTryCompileExec1356947676.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘__atomic_fetch_add_4’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1356947676
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1356947676.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_4    CMakeFiles/cmTryCompileExec1356947676.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1356947676 -rdynamic -latomic -lm 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1083725330/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1083725330.dir/build.make CMakeFiles/cmTryCompileExec1083725330.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1083725330.dir/src.cxx.o
+/usr/bin/c++    -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTryCompileExec1083725330.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1083725330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1083725330.dir/link.txt --verbose=1
+/usr/bin/c++    -DLLVM_HAS_ATOMICS    CMakeFiles/cmTryCompileExec1083725330.dir/src.cxx.o  -o cmTryCompileExec1083725330 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_VARIADIC_MACROS_FLAG succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec844231328/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec844231328.dir/build.make CMakeFiles/cmTryCompileExec844231328.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec844231328.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG   -Wno-variadic-macros -o CMakeFiles/cmTryCompileExec844231328.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec844231328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec844231328.dir/link.txt --verbose=1
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG    CMakeFiles/cmTryCompileExec844231328.dir/src.cxx.o  -o cmTryCompileExec844231328 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1443602576/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1443602576.dir/build.make CMakeFiles/cmTryCompileExec1443602576.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1443602576.dir/src.cxx.o
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTryCompileExec1443602576.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1443602576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1443602576.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED    CMakeFiles/cmTryCompileExec1443602576.dir/src.cxx.o  -o cmTryCompileExec1443602576 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1579570947/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1579570947.dir/build.make CMakeFiles/cmTryCompileExec1579570947.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1579570947.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTryCompileExec1579570947.dir/src.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1579570947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1579570947.dir/link.txt --verbose=1
+/usr/bin/cc   -DC_SUPPORTS_FPIC    CMakeFiles/cmTryCompileExec1579570947.dir/src.c.o  -o cmTryCompileExec1579570947 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4145793748/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4145793748.dir/build.make CMakeFiles/cmTryCompileExec4145793748.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4145793748.dir/src.cxx.o
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTryCompileExec4145793748.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4145793748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4145793748.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTryCompileExec4145793748.dir/src.cxx.o  -o cmTryCompileExec4145793748 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3411865869/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3411865869.dir/build.make CMakeFiles/cmTryCompileExec3411865869.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3411865869.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec3411865869.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3411865869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3411865869.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTryCompileExec3411865869.dir/src.cxx.o  -o cmTryCompileExec3411865869 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1849242738/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1849242738.dir/build.make CMakeFiles/cmTryCompileExec1849242738.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1849242738.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTryCompileExec1849242738.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1849242738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1849242738.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG    CMakeFiles/cmTryCompileExec1849242738.dir/src.cxx.o  -o cmTryCompileExec1849242738 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2515735132/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2515735132.dir/build.make CMakeFiles/cmTryCompileExec2515735132.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2515735132.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-comment -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTryCompileExec2515735132.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2515735132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2515735132.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-comment -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTryCompileExec2515735132.dir/src.cxx.o  -o cmTryCompileExec2515735132 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2047260199/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2047260199.dir/build.make CMakeFiles/cmTryCompileExec2047260199.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2047260199.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTryCompileExec2047260199.dir/src.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2047260199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2047260199.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec2047260199.dir/src.c.o  -o cmTryCompileExec2047260199 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3066051172/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3066051172.dir/build.make CMakeFiles/cmTryCompileExec3066051172.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3066051172.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTryCompileExec3066051172.dir/src.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3066051172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3066051172.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec3066051172.dir/src.c.o  -o cmTryCompileExec3066051172 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2811758460/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2811758460.dir/build.make CMakeFiles/cmTryCompileExec2811758460.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2811758460.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-comment -std=c++11 -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTryCompileExec2811758460.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2811758460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2811758460.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-comment -std=c++11 -DCXX_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec2811758460.dir/src.cxx.o  -o cmTryCompileExec2811758460 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec58551583/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec58551583.dir/build.make CMakeFiles/cmTryCompileExec58551583.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec58551583.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTryCompileExec58551583.dir/src.c.o   -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec58551583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec58551583.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTryCompileExec58551583.dir/src.c.o  -o cmTryCompileExec58551583 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeded with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3076821338/fast"
+make[3]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3076821338.dir/build.make CMakeFiles/cmTryCompileExec3076821338.dir/build
+make[4]: Entering directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3076821338.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-comment -std=c++11 -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTryCompileExec3076821338.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3076821338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3076821338.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-comment -std=c++11 -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTryCompileExec3076821338.dir/src.cxx.o  -o cmTryCompileExec3076821338 -rdynamic -lm -latomic 
+make[4]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/home/osboxes/Downloads/seahorn/build/llvm-prefix/src/llvm-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}

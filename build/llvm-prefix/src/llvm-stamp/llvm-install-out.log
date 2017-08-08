@@ -1,0 +1,859 @@
+[ 10%] Built target LLVMSupport
+[ 11%] Built target LLVMTableGen
+[ 15%] Built target llvm-tblgen
+[ 15%] Built target intrinsics_gen
+[ 20%] Built target LLVMCore
+[ 20%] Built target LLVMIRReader
+[ 34%] Built target LLVMCodeGen
+[ 37%] Built target LLVMSelectionDAG
+[ 39%] Built target LLVMAsmPrinter
+[ 40%] Built target LLVMBitReader
+[ 40%] Built target LLVMBitWriter
+[ 44%] Built target LLVMTransformUtils
+[ 45%] Built target LLVMInstrumentation
+[ 46%] Built target LLVMInstCombine
+[ 51%] Built target LLVMScalarOpts
+[ 53%] Built target LLVMipo
+[ 54%] Built target LLVMVectorize
+[ 54%] Built target LLVMHello
+[ 55%] Built target LLVMObjCARCOpts
+[ 55%] Built target LLVMLinker
+[ 62%] Built target LLVMAnalysis
+[ 62%] Built target LLVMipa
+[ 62%] Built target LLVMLTO
+[ 68%] Built target LLVMMC
+[ 69%] Built target LLVMMCParser
+[ 69%] Built target LLVMMCDisassembler
+[ 72%] Built target LLVMObject
+[ 72%] Built target LLVMOption
+[ 73%] Built target LLVMDebugInfo
+[ 74%] Built target LLVMExecutionEngine
+[ 75%] Built target LLVMInterpreter
+[ 75%] Built target LLVMMCJIT
+[ 76%] Built target LLVMRuntimeDyld
+[ 77%] Built target LLVMTarget
+[ 80%] Built target X86CommonTableGen
+[ 82%] Built target LLVMX86CodeGen
+[ 82%] Built target LLVMX86AsmParser
+[ 82%] Built target LLVMX86Disassembler
+[ 82%] Built target LLVMX86AsmPrinter
+[ 83%] Built target LLVMX86Desc
+[ 84%] Built target LLVMX86Info
+[ 84%] Built target LLVMX86Utils
+[ 84%] Built target LLVMAsmParser
+[ 84%] Built target LLVMLineEditor
+[ 86%] Built target LLVMProfileData
+[ 86%] Built target FileCheck
+[ 86%] Built target llvm-PerfectShuffle
+[ 86%] Built target count
+[ 86%] Built target not
+[ 86%] Built target yaml-bench
+[ 86%] Built target gtest
+[ 86%] Built target gtest_main
+[ 86%] Built target llvm-config
+[ 87%] Built target opt
+[ 87%] Built target llvm-as
+[ 87%] Built target llvm-dis
+[ 87%] Built target llvm-mc
+[ 87%] Built target llc
+[ 87%] Built target llvm-ar
+[ 87%] Built target llvm-ranlib
+[ 87%] Built target llvm-nm
+[ 87%] Built target llvm-size
+[ 88%] Built target llvm-cov
+[ 88%] Built target llvm-profdata
+[ 89%] Built target llvm-link
+[ 90%] Built target lli
+[ 90%] Built target lli-child-target
+[ 90%] Built target llvm-extract
+[ 91%] Built target llvm-diff
+[ 91%] Built target macho-dump
+[ 93%] Built target llvm-objdump
+[ 94%] Built target llvm-readobj
+[ 94%] Built target llvm-rtdyld
+[ 94%] Built target llvm-dwarfdump
+[ 94%] Built target llvm-dsymutil
+[ 95%] Built target llvm-vtabledump
+[ 96%] Built target bugpoint
+[ 96%] Built target BugpointPasses
+[ 96%] Built target llvm-bcanalyzer
+[ 96%] Built target llvm-stress
+[ 96%] Built target llvm-mcmarkup
+[ 96%] Built target verify-uselistorder
+[ 96%] Built target llvm-symbolizer
+[ 97%] Built target llvm-c-test
+[ 97%] Built target obj2yaml
+[ 98%] Built target yaml2obj
+[ 98%] Built target LTO_exports
+[100%] Built target LTO
+[100%] Built target llvm-lto
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Scalar.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Instrumentation.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/IPO
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/IPO/InlinerPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/IPO/PassManagerBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/ModuleUtils.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/IntegerDivision.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/CmpInstAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/BuildLibCalls.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/ASanStackFrameLayout.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/BasicBlockUtils.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/CtorUtils.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/SymbolRewriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/LoopUtils.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/Cloning.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/Local.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/PromoteMemToReg.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/UnrollLoop.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/SSAUpdaterImpl.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/ValueMapper.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/SSAUpdater.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/UnifyFunctionExitNodes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/CodeExtractor.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/BypassSlowDivision.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/GlobalStatus.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/VectorUtils.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/SimplifyLibCalls.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Utils/SimplifyIndVar.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/IPO.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/ObjCARC.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Transforms/Vectorize.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/IntervalIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CallGraphSCCPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ScalarEvolutionNormalization.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/InlineCost.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CGSCCPassManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CFGPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/PostDominators.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/TargetTransformInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LoopPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/InstructionSimplify.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/DomPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/AssumptionCache.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/Passes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ScalarEvolution.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/PHITransAddr.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/AliasSetTracker.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LazyValueInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/JumpInstrTableInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ScalarEvolutionExpander.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/DOTGraphTraitsPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/Interval.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/DependenceAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/DominanceFrontier.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/MemoryDependenceAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ValueTracking.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LoopIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ConstantsScanner.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/RegionPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/RegionPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/TargetFolder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/BranchProbabilityInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/RegionInfoImpl.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LoopInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/Lint.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ScalarEvolutionExpressions.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LazyCallGraph.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/FunctionTargetTransformInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/Trace.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CFG.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/IntervalPartition.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LibCallAliasAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/MemoryBuiltins.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CallGraph.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/IVUsers.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LibCallSemantics.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/ConstantFolding.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/AliasAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/SparsePropagation.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CodeMetrics.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/LoopInfoImpl.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/BlockFrequencyInfoImpl.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CaptureTracking.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/PtrUseVisitor.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/RegionInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/Loads.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/RegionIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/CallPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/BlockFrequencyInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Analysis/DominanceFrontierImpl.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugRangeList.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugLoc.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugArangeSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFRelocMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFAcceleratorTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFUnit.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFAbbreviationDeclaration.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugFrame.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFFormValue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFContext.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugInfoEntry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugAranges.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFCompileUnit.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DIContext.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugLine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFDebugAbbrev.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFTypeUnit.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/DebugInfo/DWARFSection.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Pass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Linker
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Linker/Linker.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/PassSupport.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LinkAllPasses.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetIntrinsicInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetOptions.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetLoweringObjectFile.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/CostTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetMachine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetSelectionDAGInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetFrameLowering.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetItinerary.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetSchedule.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetLowering.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetRegisterInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/Target.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetSelectionDAG.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetCallingConv.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetOpcodes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetInstrInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetLibraryInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetSubtargetInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Target/TargetCallingConv.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/SymbolicFile.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/MachOUniversal.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/ELF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/ELFYAML.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/COFFYAML.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/ObjectFile.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/IRObjectFile.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/Archive.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/COFF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/ELFTypes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/MachO.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/Error.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/Binary.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/ELFObjectFile.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Object/RelocVisitor.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/PassManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/StringMatcher.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/Record.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/TableGenBackend.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/StringToOffsetTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/Main.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/Error.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/TableGen/SetTheory.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveIntervalAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineLoopInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineBasicBlock.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineTraceMetrics.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineValueType.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ScheduleDAG.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/RegAllocPBQP.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveRangeEdit.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/StackMaps.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveStackAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineFunctionAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineInstrBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/RegAllocRegistry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/CallingConvLower.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineScheduler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveInterval.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/Passes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ScoreboardHazardRecognizer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/RuntimeLibcalls.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/FunctionLoweringInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/RegisterClassInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/TargetSchedule.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LinkAllCodegenComponents.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineMemOperand.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineDominators.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/Analysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LexicalScopes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineModuleInfoImpls.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineInstr.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachORelocation.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineFunctionPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LinkAllAsmWriterComponents.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/SchedulerRegistry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ResourcePriorityQueue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/GCMetadata.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ScheduleHazardRecognizer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/SlotIndexes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineSSAUpdater.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ScheduleDFS.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/SelectionDAGISel.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LivePhysRegs.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/GCs.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/StackMapLivenessAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineCombinerPattern.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/StackProtector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineConstantPool.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQP
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQP/Graph.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQP/ReductionRules.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQP/CostAllocator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQP/Math.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQP/Solution.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/SelectionDAG.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveIntervalUnion.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/DIE.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveRegMatrix.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/GCStrategy.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineBlockFrequencyInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PseudoSourceValue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/CalcSpillWeights.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachinePassRegistry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineBranchProbabilityInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/GCMetadataPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineRegisterInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/IntrinsicLowering.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineInstrBundle.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/RegisterScavenging.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/CommandFlags.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/AsmPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/FastISel.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/RegisterPressure.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ForwardControlFlowIntegrity.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/VirtRegMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/EdgeBundles.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ValueTypes.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ScheduleDAGInstrs.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineJumpTableInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/DAGCombine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineOperand.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LatencyPriorityQueue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/PBQPRAConstraint.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineFunction.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/TargetLoweringObjectFileImpl.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/JumpInstrTables.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineRegionInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineFrameInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/SelectionDAGNodes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/LiveVariables.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ISDOpcodes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/ValueTypes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachinePostDominators.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineModuleInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/MachineDominanceFrontier.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/CodeGen/DFAPacketizer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/AsmParser
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/AsmParser/Parser.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DebugLoc.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/CallingConv.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/PassManagerInternal.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Mangler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IRPrintingPasses.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Instruction.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/GlobalObject.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsARM.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/UseListOrder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/AutoUpgrade.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/GVMaterializer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/GetElementPtrTypeIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Comdat.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DataLayout.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Statepoint.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Dominators.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DIBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/LegacyPassManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/LegacyPassNameParser.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/ConstantRange.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/CallSite.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Verifier.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/TypeFinder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Module.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/ValueMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/PassManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/TypeBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Intrinsics.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/AssemblyAnnotationWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Use.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Attributes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/ValueHandle.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsPowerPC.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/InstVisitor.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/BasicBlock.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/ConstantFolder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/NoFolder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/LLVMContext.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Constants.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/GlobalVariable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/GlobalAlias.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/MDBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Operator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/MetadataTracking.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Metadata.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/CFG.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DerivedTypes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/LegacyPassManagers.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Argument.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicInst.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Constant.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/InlineAsm.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Intrinsics.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IRBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsXCore.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Instruction.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/SymbolTableListTraits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Instructions.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Metadata.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsAArch64.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/GlobalValue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsHexagon.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/ValueSymbolTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsMips.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsNVVM.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/TrackingMDRef.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsR600.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DebugInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/InstrTypes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/OperandTraits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/User.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/InstIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/IntrinsicsX86.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/PatternMatch.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Value.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Function.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Type.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DiagnosticPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/DiagnosticInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/PredIteratorCache.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LineEditor
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LineEditor/LineEditor.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/PassRegistry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/CoverageMappingReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/InstrProfReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/InstrProf.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/CoverageMapping.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/CoverageMappingWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/SampleProfWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/InstrProfWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/SampleProf.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ProfileData/SampleProfReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/PassAnalysisSupport.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LinkAllIR.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/InitializePasses.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IRReader
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IRReader/IRReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/PassInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option/OptParser.td
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option/OptTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option/OptSpecifier.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option/Option.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option/Arg.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Option/ArgList.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LTO
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LTO/LTOModule.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/LTO/LTOCodeGenerator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSectionELF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCStreamer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSymbol.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCDirectives.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/ConstantPools.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCCodeEmitter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCExpr.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCContext.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCFixedLenDisassembler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInst.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/YAML.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAsmLayout.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCDwarf.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAsmInfoCOFF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/SubtargetFeature.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCRegisterInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCExternalSymbolizer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAsmInfoELF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCObjectStreamer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSectionCOFF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSchedule.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSymbolizer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCTargetAsmParser.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCELFStreamer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInstrAnalysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/SectionKind.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCDisassembler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCLabel.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCFixupKindInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCObjectWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCValue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCFixup.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCWin64EH.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCWinCOFFStreamer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCWinEH.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCELF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSubtargetInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInstPrinter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAsmInfoDarwin.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCObjectFileInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSection.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCMachObjectWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCTargetOptions.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCLinkerOptimizationHint.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCSectionMachO.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInstrItineraries.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAsmBackend.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAsmInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/StringTableBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCTargetOptionsCommandFlags.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInstrDesc.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCMachOSymbolFlags.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInstBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAnalysis
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCWinCOFFObjectWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser/MCAsmLexer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser/AsmCond.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser/MCParsedAsmOperand.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser/MCAsmParser.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser/AsmLexer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCParser/MCAsmParserExtension.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCELFSymbolFlags.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCAssembler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCInstrInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCCodeGenInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MachineLocation.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCELFObjectWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/MC/MCRelocationInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/StringMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ArrayRef.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/StringRef.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/None.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/APFloat.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/PointerUnion.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SparseMultiSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SmallBitVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/iterator_range.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SmallPtrSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SparseSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/FoldingSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ImmutableMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/IndexedMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/APSInt.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/PostOrderIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/IntEqClasses.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/DepthFirstIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/Optional.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/STLExtras.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/edit_distance.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/StringSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/Statistic.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ilist_node.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SetVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/PriorityQueue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SmallVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/PointerIntPair.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/iterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/DenseSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/VariadicFunction.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ScopedHashTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/BitVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SetOperations.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/DAGDeltaAlgorithm.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/StringExtras.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SparseBitVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/IntrusiveRefCntPtr.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/APInt.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SmallSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/DeltaAlgorithm.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/Twine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/UniqueVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ImmutableList.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ilist.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/Triple.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/Hashing.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/DenseMapInfo.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/MapVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/DenseMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SCCIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/PackedVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/IntervalMap.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/StringSwitch.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/GraphTraits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/SmallString.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/EquivalenceClasses.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/ImmutableSet.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ADT/TinyPtrVector.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/RecyclingAllocator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/x86_64.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/Sparc.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/PowerPC64.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/Mips.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/SystemZ.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/PowerPC.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/Hexagon.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/i386.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/AArch64.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELFRelocs/ARM.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/MemoryBuffer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Timer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/DataExtractor.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/raw_os_ostream.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ELF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/SMLoc.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/SpecialCaseList.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/CommandLine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Options.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Watchdog.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/MemoryObject.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Solaris.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Regex.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/GCOV.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Path.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/FileSystem.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/PointerLikeTypeTraits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Capacity.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/FileUtilities.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/AlignOf.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/YAMLTraits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/LockFileManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ConvertUTF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Unicode.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Errc.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/OutputBuffer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Compiler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/SystemUtils.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/BlockFrequency.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/circular_raw_ostream.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/FormattedStream.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/GenericDomTreeConstruction.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/DOTGraphTraits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/StringPool.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/OnDiskHashTable.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/WindowsError.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/MutexGuard.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ErrorHandling.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ArrayRecycler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/LEB128.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/GraphWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/RegistryParser.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Compression.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/TargetRegistry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/TimeValue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/MD5.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/FileOutputBuffer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/UnicodeCharRanges.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ToolOutputFile.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Host.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/CrashRecoveryContext.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Atomic.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/TargetSelect.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Locale.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/COFF.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/SourceMgr.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ARMBuildAttributes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/RWMutex.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/BranchProbability.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Recycler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/AIXDataTypesFix.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Memory.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ScaledNumber.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Casting.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Endian.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/PrettyStackTrace.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/GenericDomTree.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ARMEHABI.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ErrorOr.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Debug.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/SaveAndRestore.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Mutex.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/MachO.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Program.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ManagedStatic.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Valgrind.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Registry.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/MathExtras.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/raw_ostream.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Errno.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/CodeGen.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/YAMLParser.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Win64EH.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/StreamingMemoryObject.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/EndianStream.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/DataStream.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/PluginLoader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Format.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ThreadLocal.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/SwapByteOrder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Threading.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/LICENSE.TXT
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/CBindingWrapping.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Process.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/LineIterator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/DynamicLibrary.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/RandomNumberGenerator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Dwarf.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/ARMWinEH.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Allocator.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/UniqueLock.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/type_traits.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/Signals.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/RuntimeDyldChecker.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/GenericValue.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/Interpreter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/ExecutionEngine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/OProfileWrapper.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/SectionMemoryManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/MCJIT.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/ObjectCache.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/RTDyldMemoryManager.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/RuntimeDyld.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/ExecutionEngine/JITEventListener.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode/BitcodeWriterPass.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode/BitCodes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode/ReaderWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode/BitstreamReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode/BitstreamWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Bitcode/LLVMBitCodes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Support.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Core.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Transforms
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Transforms/Scalar.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Transforms/IPO.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Transforms/Vectorize.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Transforms/PassManagerBuilder.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/BitReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Object.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Analysis.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/TargetMachine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Initialization.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Target.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Disassembler.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/ExecutionEngine.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/LinkTimeOptimizer.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/lto.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/IRReader.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/BitWriter.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/Linker.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config/AsmParsers.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config/Disassemblers.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config/llvm-config.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config/Targets.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Config/AsmPrinters.def
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/IR/Intrinsics.gen
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/include/llvm/Support/DataTypes.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMSupport.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMTableGen.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-tblgen
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMCore.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMIRReader.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMCodeGen.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMSelectionDAG.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMAsmPrinter.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMBitReader.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMBitWriter.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMTransformUtils.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMInstrumentation.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMInstCombine.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMScalarOpts.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMipo.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMVectorize.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/LLVMHello.so
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMObjCARCOpts.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMLinker.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMAnalysis.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMipa.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMLTO.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMMC.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMMCParser.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMMCDisassembler.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMObject.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMOption.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMDebugInfo.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMExecutionEngine.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMInterpreter.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMMCJIT.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMRuntimeDyld.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMTarget.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86CodeGen.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86AsmParser.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86Disassembler.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86AsmPrinter.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86Desc.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86Info.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMX86Utils.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMAsmParser.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMLineEditor.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLLVMProfileData.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libgtest.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libgtest_main.a
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-config
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/opt
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-as
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-dis
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-mc
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llc
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-ar
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-nm
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-size
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-cov
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-profdata
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-link
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/lli
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-extract
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-diff
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/macho-dump
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-objdump
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-readobj
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-rtdyld
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-dwarfdump
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-dsymutil
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-vtabledump
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/bugpoint
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/BugpointPasses.so
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-bcanalyzer
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-stress
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-mcmarkup
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/verify-uselistorder
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-symbolizer
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-c-test
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/obj2yaml
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/yaml2obj
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/lib/libLTO.so
+-- Up-to-date: /home/osboxes/Downloads/seahorn/build/run/include/llvm-c/lto.h
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/bin/llvm-lto
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/LLVMExports.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/LLVMExports-release.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/LLVMConfig.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/LLVMConfigVersion.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/LLVM-Config.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/.
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./HandleLLVMStdlib.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./AddLLVM.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./AddLLVMDefinitions.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./AddSphinxTarget.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./ChooseMSVCCRT.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./AddOCaml.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./TableGen.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./GetSVN.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./LLVMParseArguments.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./HandleLLVMOptions.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./LLVMProcessSources.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./FindOCaml.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./FindSphinx.cmake
+-- Installing: /home/osboxes/Downloads/seahorn/build/run/share/llvm/cmake/./CrossCompile.cmake

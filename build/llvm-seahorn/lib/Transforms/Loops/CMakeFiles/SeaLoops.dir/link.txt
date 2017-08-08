@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../lib/libSeaLoops.a  CMakeFiles/SeaLoops.dir/IndVarSimplify.cc.o CMakeFiles/SeaLoops.dir/FakeLatchExit.cc.o
+/usr/bin/ranlib ../../../../lib/libSeaLoops.a

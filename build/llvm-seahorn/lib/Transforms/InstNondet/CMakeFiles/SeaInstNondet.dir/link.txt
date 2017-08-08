@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../lib/libSeaInstNondet.a  CMakeFiles/SeaInstNondet.dir/NondetInit.cc.o
+/usr/bin/ranlib ../../../../lib/libSeaInstNondet.a

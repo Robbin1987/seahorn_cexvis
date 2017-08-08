@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/seahorn/seahorn.h
+
+/home/osboxes/Downloads/seahorn/sea-rt/seahorn.cpp
+seahorn/seahorn.h
+/home/osboxes/Downloads/seahorn/sea-rt/seahorn/seahorn.h
+cstdint
+-
+cstdio
+-
+cassert
+-
+cstdlib
+-
+cstring
+-
+map
+-
+functional
+-
+

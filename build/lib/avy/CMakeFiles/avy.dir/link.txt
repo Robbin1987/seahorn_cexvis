@@ -1,0 +1,2 @@
+/usr/bin/ar cr libavy.a  CMakeFiles/avy.dir/AvyDebug.cc.o
+/usr/bin/ranlib libavy.a

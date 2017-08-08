@@ -1,0 +1,5 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x2720360 [shape=record,label="{%0:\l  tail call void @seahorn.fn.enter() #2\l  ret i32 0\l}"];
+}

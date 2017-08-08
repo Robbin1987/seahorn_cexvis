@@ -1,0 +1,16 @@
+/home/osboxes/Downloads/seahorn/ext/llvm/utils/TableGen/CodeGenRegisters.cpp: In member function ‘void llvm::CodeGenRegBank::computeRegUnitLaneMasks()’:
+/home/osboxes/Downloads/seahorn/ext/llvm/utils/TableGen/CodeGenRegisters.cpp:1787:14: warning: variable ‘Found’ set but not used [-Wunused-but-set-variable]
+         bool Found = false;
+              ^
+/home/osboxes/Downloads/seahorn/ext/llvm/lib/Transforms/Utils/SimplifyIndVar.cpp: In member function ‘bool {anonymous}::SimplifyIndvar::strengthenOverflowingOperation(llvm::BinaryOperator*, llvm::Value*)’:
+/home/osboxes/Downloads/seahorn/ext/llvm/lib/Transforms/Utils/SimplifyIndVar.cpp:291:7: warning: variable ‘OtherOperandIdx’ set but not used [-Wunused-but-set-variable]
+   int OtherOperandIdx = -1;
+       ^
+/home/osboxes/Downloads/seahorn/ext/llvm/lib/Target/X86/X86ISelLowering.cpp: In function ‘llvm::SDValue PerformMLOADCombine(llvm::SDNode*, llvm::SelectionDAG&, llvm::TargetLowering::DAGCombinerInfo&, const llvm::X86Subtarget*)’:
+/home/osboxes/Downloads/seahorn/ext/llvm/lib/Target/X86/X86ISelLowering.cpp:24752:25: warning: unused variable ‘TLI’ [-Wunused-variable]
+   const TargetLowering &TLI = DAG.getTargetLoweringInfo();
+                         ^
+/home/osboxes/Downloads/seahorn/ext/llvm/lib/Target/X86/X86ISelLowering.cpp: In function ‘llvm::SDValue PerformMSTORECombine(llvm::SDNode*, llvm::SelectionDAG&, const llvm::X86Subtarget*)’:
+/home/osboxes/Downloads/seahorn/ext/llvm/lib/Target/X86/X86ISelLowering.cpp:24832:25: warning: unused variable ‘TLI’ [-Wunused-variable]
+   const TargetLowering &TLI = DAG.getTargetLoweringInfo();
+                         ^

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCrabLlvmAnalysis.a  CMakeFiles/CrabLlvmAnalysis.dir/CfgBuilder.cc.o CMakeFiles/CrabLlvmAnalysis.dir/CrabLlvm.cc.o CMakeFiles/CrabLlvmAnalysis.dir/NameValues.cc.o
+/usr/bin/ranlib libCrabLlvmAnalysis.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../libSeaAnalysis.a  CMakeFiles/SeaAnalysis.dir/CanAccessMemory.cc.o CMakeFiles/SeaAnalysis.dir/CanFail.cc.o CMakeFiles/SeaAnalysis.dir/CutPointGraph.cc.o CMakeFiles/SeaAnalysis.dir/TopologicalOrder.cc.o CMakeFiles/SeaAnalysis.dir/WeakTopologicalOrder.cc.o CMakeFiles/SeaAnalysis.dir/ApiAnalysisPass.cc.o CMakeFiles/SeaAnalysis.dir/CanReadUndef.cc.o
+/usr/bin/ranlib ../libSeaAnalysis.a

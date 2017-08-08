@@ -1,0 +1,3 @@
+Z3 was successfully installed.
+Z3 shared libraries were installed at /home/osboxes/Downloads/seahorn/build/run/lib, make sure this directory is in your LD_LIBRARY_PATH environment variable.
+Z3Py was installed at /home/osboxes/Downloads/seahorn/build/run/lib/python2.7/dist-packages, make sure this directory is in your PYTHONPATH environment variable.

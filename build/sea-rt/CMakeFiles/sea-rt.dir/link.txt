@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsea-rt.a  CMakeFiles/sea-rt.dir/seahorn.cpp.o
+/usr/bin/ranlib libsea-rt.a

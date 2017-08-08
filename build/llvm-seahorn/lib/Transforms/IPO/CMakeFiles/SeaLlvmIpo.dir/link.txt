@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../lib/libSeaLlvmIpo.a  CMakeFiles/SeaLlvmIpo.dir/PassManagerBuilder.cpp.o
+/usr/bin/ranlib ../../../../lib/libSeaLlvmIpo.a

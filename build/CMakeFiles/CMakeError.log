@@ -1,0 +1,32 @@
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME failed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3356602520/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3356602520.dir/build.make CMakeFiles/cmTryCompileExec3356602520.dir/build
+make[1]: Entering directory `/home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3356602520.dir/src.c.o
+/usr/bin/cc   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTryCompileExec3356602520.dir/src.c.o   -c /home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: -Werror=date-time: no option -Wdate-time
+make[1]: Leaving directory `/home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3356602520.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3356602520/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME failed with the following output:
+Change Dir: /home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec307941015/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec307941015.dir/build.make CMakeFiles/cmTryCompileExec307941015.dir/build
+make[1]: Entering directory `/home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec307941015.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTryCompileExec307941015.dir/src.cxx.o -c /home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: -Werror=date-time: no option -Wdate-time
+make[1]: Leaving directory `/home/osboxes/Downloads/seahorn/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec307941015.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec307941015/fast] Error 2
+
+Source file was:
+int main() { return 0;}

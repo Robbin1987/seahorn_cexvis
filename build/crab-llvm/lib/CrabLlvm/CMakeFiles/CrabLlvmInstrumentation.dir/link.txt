@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCrabLlvmInstrumentation.a  CMakeFiles/CrabLlvmInstrumentation.dir/InsertInvariants.cc.o
+/usr/bin/ranlib libCrabLlvmInstrumentation.a

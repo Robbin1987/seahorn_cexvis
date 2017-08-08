@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../libSeaSupport.a  CMakeFiles/SeaSupport.dir/SortTopo.cc.o CMakeFiles/SeaSupport.dir/Stats.cc.o CMakeFiles/SeaSupport.dir/DSAInfo.cc.o CMakeFiles/SeaSupport.dir/Profiler.cc.o CMakeFiles/SeaSupport.dir/CFGPrinter.cc.o
+/usr/bin/ranlib ../libSeaSupport.a
